@@ -1,0 +1,375 @@
+:root {
+  --black--: #111315;
+  --basic-black--: #30353c;
+  --white--: #fff;
+}
+
+*,
+html {
+  padding: 0;
+  margin: 0;
+  
+}
+body {
+  /* background-image: linear-gradient(
+    45deg,
+    yellow,
+    rgb(247, 7, 7),
+    rgb(196, 0, 144),
+    rgb(60, 0, 102)
+  ); */
+  background-image:url(wallhaven-5g8r55_3840x2160.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  color: #fff;
+  
+}
+.navbar {
+  height: 6rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255);
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 10px;
+  left: 4%;
+  right: 4%;
+  z-index: 999;
+  border-radius: 500px;
+}
+.main-navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name-navbar {
+  font-size: 1.4rem;
+  color: black;
+  text-transform: capitalize;
+  text-align: center; 
+
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal */
+  
+}
+.logo-navbar {
+
+  margin: 0.5rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.logo-navbar img {
+  width: 100%;
+  height: 100%;
+}
+.togle-navbar {
+  border: none;
+  margin: 0.5rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.log-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100%;
+  /* background-color: var(--white--); */
+}
+
+.log-navbar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  
+}
+
+input {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 999;
+}
+input:hover {
+  cursor: pointer;
+}
+.icon {
+  position: absolute;
+}
+.provile {
+  padding: 0 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-provile {
+  padding: 6rem 0 1rem 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.bingkai-photo {
+  background-image: linear-gradient(
+    45deg,
+    yellow,
+    rgb(255, 64, 0),
+    rgb(196, 0, 144),
+    rgb(60, 0, 102)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  margin: 2.5rem;
+  padding: 0.7rem;
+}
+.photo-provile {
+  background-color: silver;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.photo-provile img {
+  width: 100%;
+  height: 100%;
+}
+.informasi-provile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.intro-provile {
+  font-size: 2rem;
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: capitalize;
+  margin-left: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-provile {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 100px;
+  margin-left: 0.5rem;
+}
+.logo-provile img {
+  width: 100%;
+  height: 100%;
+}
+.intro-name-provile {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 1rem;
+}
+
+.txt-for,
+.txt-one,
+.txt-tre,
+.txt-true {
+  color: white;
+}
+/* media sosial */
+.content-sosial {
+  padding: 1.5rem 4%;
+}
+.informasi-media-sosial {
+  text-align: center;
+  padding: 1rem;
+  color: black;
+}
+.informasi-media-sosial h2 {
+  margin: 0.5rem 0;
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--white--);
+}
+.informasi-media-sosial p {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--white--);
+}
+.main-media-sosila {
+  padding: 1.5rem 0;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.media-sosial {
+  border-radius: 100px;
+  background-color: white;
+  width: 50rem;
+  height: 6rem;
+  margin: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+  box-shadow: 0px 0px 20px var(--white--);
+}
+.media-sosial:hover {
+  cursor: pointer;
+}
+.menu-titik {
+  opacity: 0;
+
+  margin-right: 4rem;
+  display: flex;
+  align-items: center;
+}
+.media-img {
+  margin: 0.5rem;
+  border-radius: 100px;
+  width: 5rem;
+  height: 5rem;
+  overflow: hidden;
+}
+.media-img img {
+  width: 100%;
+  height: 100%;
+}
+.name-media {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  color: black;
+}
+
+/* media sosial end */
+
+/* footer start */
+.content-footer {
+  padding: 1.4rem 7% 0 7%;
+  background-color: var(--white--);
+  border-radius: 50px 50px 0 0;
+  color: var(--black--);
+  box-shadow: 0px 0px 20px var(--white--);
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.main-footer {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+.informasi-tr-footer,
+.informasi-footer,
+.informasi-lanjutan {
+  margin: 1rem 0;
+
+}
+.peringatan-footer {
+  margin: 1rem 0;
+  color: red;
+}
+.footer {
+  padding: 1.4rem 0;
+
+}
+.informasi-footer h2,
+.informasi-lanjutan h2,
+.informasi-tr-footer h2,
+.peringatan-footer h2 {
+  margin: 0.5rem;
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.larangan{
+  margin: 0.5rem;
+  text-align: center;
+  
+}
+li{
+  list-style-type: none;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+/* footer end */
+@media (min-width: 320px) and (max-width: 767px) {
+  html {
+    font-size: 65%;
+  }
+  .media-sosial {
+    width: 100%;
+  }
+  .main-provile {
+    width: 100%;
+  }
+  .media-img {
+    margin: 0.5rem;
+    border-radius: 100px;
+    width: 5rem;
+    height: 5rem;
+    overflow: hidden;
+  }
+  .navbar {
+    top: 10px;
+    right: 4%;
+    left: 4%;
+  }
+  /* .logo-navbar,.togle-navbar{
+  margin: 0.5rem;
+  } */
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  html {
+    font-size: 75%;
+  }
+  .media-sosial {
+    width: 90%;
+  }
+  .main-provile {
+    width: 100%;
+  }
+  .navbar {
+    top: 10px;
+    right: 4%;
+    left: 4%;
+  }
+}
