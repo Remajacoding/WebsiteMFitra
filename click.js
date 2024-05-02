@@ -10,7 +10,8 @@ function buttre(){
     // alert("ttombol tiga redy")
     // window.location.href = "tiktok.com/@putra_aceh49"
     // window.location.href = "https://www.tiktok.com/@putra_aceh49"
-    window.location.href = "https://www.tiktok.com/@putra_aceh49?is_from_webapp=1&sender_device=pc"
+    // window.location.href = "https://www.tiktok.com/@putra_aceh49?is_from_webapp=1&sender_device=pc"
+     window.location.href = "https://vm.tiktok.com/ZSFwq3KqE/"
 }
 function butfor(){
     // alert("tombol empat redy")
